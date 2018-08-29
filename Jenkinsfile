@@ -3,7 +3,7 @@ pipeline {
       label "jenkins-maven"
     }
     environment {
-      ORG               = 'activiti'
+      ORG               = 'flv22'
       APP_NAME          = 'ttc-connectors-dummytwitter'
       CHARTMUSEUM_CREDS = credentials('jenkins-x-chartmuseum')
     }
